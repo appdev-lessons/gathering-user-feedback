@@ -10,8 +10,11 @@ In this lesson, we'll explore techniques for engaging with users to gather meani
 
 ## Introduction
 
-> "If I had asked people what they wanted, they would have said faster horses." — Henry Ford  
-> "A lot of times, people don’t know what they want until you show it to them." — Steve Jobs
+> "If I had asked people what they wanted, they would have said faster horses."
+> Henry Ford
+>
+> "A lot of times, people don’t know what they want until you show it to them."
+> Steve Jobs
 
 It's important to talk to users, even if their desires might not be immediately clear. Actions also speak louder than words. So listen to what users say, but, more importantly, notice what they do.
 
