@@ -53,7 +53,8 @@ You want to optimize for speed of delivery, iterating your product towards somet
 - **you**: Hey, my new app idea is ...
 - **friend**: Wow, that's super cool!
 - **you**: bla bla bla bla
-- **friend**: Amazing, billion dollar idea
+- **friend**: Amazing,... billion dollar idea
+- (months later)
 - **you**: We just launched, will you buy?
 - **friend**: (...crickets...)
 
@@ -62,28 +63,22 @@ This is a totally useless conversation. Your friend is trying to be supportive a
 
 ### Guidelines for User Conversations
 
-- Discuss users' lives, not your product.
-- Ask about real experiences rather than hypotheticals.
+- Discuss their lives, not your product.
+- Ask about real experiences, not hypotheticals. (avoid "would")
 - Listen more than you speak.
 
 
-<!-- 
+#### DOs
+- Plan the 3 most important questions you want to investigate. The answers to these questions should terrify you and potentially disprove your idea. Try to form the rest questions around these questions. These questions may be different for each type of person you’re talking to.
+- Start from broad questions and then zoom in until you’ve found a strong signal. Mix generic and specific questions during your conversation. These conversations can be really casual. The interviewee may not even know you are working on a project or that you are "interviewing" them.
+- Ask about lived experience, daily habits and frequent actions instead of abstract ideas and possible solutions.
+- Ask about specific actions in the past, about the positive and negative experience of using similar products. If you consider your idea unique than refer to indirect competitors or the main issues a person witnesses.
+- Ask your potential user to describe all the steps in detail of using a similar product. Listen and make notes carefully. Don’t miss the emotional questions (like "What did you feel...?").
+- Try to ask for a commitment at the end of your conversation (it can be an intro to the colleagues or boss or a person who might be also interested in; pre-payment; one more meeting and etc.)
 
-DO:
-Plan the 3 most important questions (BIG 3) you want to investigate. Try to form the rest questions around this BIG 3 list. It will help you to have a 360 grad overview of your main issues. These questions will be different for each type of person you’re talking to.
-Start from broad questions and then zoom in until you’ve found a strong signal. Mix generic and specific questions during your conversation. It should sound casual and not like an interrogation.
-Ask more about personal and professional experience, daily habits and frequent actions instead of abstract ideas and possible solutions.
-Ask about specific actions in the past, about the positive and negative experience of using similar products. If you consider your idea unique than refer to indirect competitors or the main issues a person witnesses.
-Ask your interlocutor to describe all the steps in detail of using a similar product. Listen and make notes carefully. Don’t miss the emotional questions (like “What did you feel…?”).
-Try to ask for a commitment at the end of your conversation (it can be an intro to the colleagues or boss or a person who might be also interested in; pre-payment; one more meeting and etc.)
-
-
-DON’T
-Don’t look for approval or support. Look for the truth. It’s pleasant to receive positive feedback and compliments, but they are dangerous. They might be misleading.
-Don’t try to convince your interlocutor that your idea is awesome. Listen what people tell and what kind of questions they ask.
-
- -->
-
+#### DON'Ts
+- Don’t look for approval or support. Look for the truth. It’s pleasant to receive positive feedback and compliments, but they are dangerous. They might be misleading.
+- Don’t try to convince your potential user that your idea is awesome. Listen to what people say and what kind of questions they ask.
 
 ### Crafting Questions
 
@@ -96,7 +91,6 @@ Don’t try to convince your interlocutor that your idea is awesome. Listen what
 | Would you pay X for a product that did Y?	| Who else should I talk to? |
 | Do you think your husband would use this?	| Is there anything else I should have asked? |
 
-
 #### Great Interview Questions
 
 1. What is the hardest part about [doing this thing]?
@@ -105,25 +99,70 @@ Don’t try to convince your interlocutor that your idea is awesome. Listen what
 4. What, if anything, have you done to solve this problem?
 5. What don’t you love about the solution you already tried?
 
-### Identifying Bad Data
+### Bad Data
 
-Be cautious of:
+Avoid:
 - Compliments
 - Fluff (generics, hypotheticals)
 - Ideas
 
 ## Eat Your Own Dog Food
 
-- Experience your product as your users do. If it’s good enough for you, it’s likely good enough for your users.
+![](assets/man-eat-dog-food.jpeg)
 
-## Communication with Users
+Experience your product as your users do. If it’s good enough for you, it’s likely good enough for your users. This is called "dog fooding".
 
-- Add a contact link on your website for user inquiries.
-- Follow up with users after registration to build a rapport.
+## Make It Easy For Users to Contact You
 
-### Summary
+Maintain a direct connection to your users. Add a contact link on your website for user inquiries. 
+
+### Contact Links
+
+Add contact email and phone links to your site.
+
+```html
+<a href="mailto:ian@dpi.dev">Email Me</a>
+```
+
+You can even add a `body` and `subject` as query string params. This works for SMS too.
+
+```html
+<a href="sms:+15555555555">Text Me</a>
+```
+
+### Send user registration email follow up
+
+Make sure you have a way to contact users. You can confirm email and/or phone number when users sign up. Send users a "welcome" email when they sign up.
+
+```ruby
+class User < ApplicationRecord
+  after_create :send_welcome_email
+
+  private
+
+  def send_welcome_email
+    UserMailer.welcome_email(self).deliver_now
+  end
+end
+```
+
+Here's a good example:
+
+![](./assets/smart-bear-welcome.png)
+
+![](./assets/smart-bear-question.png)
+
+### Stay In Touch
+
+Follow up with users after registration to build a rapport. You can even send it from your personal email to maintain a direct connection. Here's a good example:
+
+![](./assets/rails-devs-update.png)
+
+### TLDR;
 
 Don’t ask anyone whether your app is a good idea!
+
+## Quiz
 
 - What is one major consequence of not gathering user feedback during product development?
 - Increased development speed.
