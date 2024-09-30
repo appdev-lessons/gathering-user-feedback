@@ -148,15 +148,15 @@ end
 
 Here's a good example:
 
-![](./assets/smart-bear-welcome.png)
+![](assets/smart-bear-welcome.png)
 
-![](./assets/smart-bear-question.png)
+![](assets/smart-bear-question.png)
 
 ### Stay In Touch
 
 Follow up with users after registration to build a rapport. You can even send it from your personal email to maintain a direct connection. Here's a good example:
 
-![](./assets/rails-devs-update.png)
+![](assets/rails-devs-update.png)
 
 ### TLDR;
 
