@@ -197,7 +197,7 @@ Don’t ask anyone whether your app is a good idea!
 ## Resources
 
 - [Mom Test Summary](https://nucks.co/notes/the-mom-test-rob-fitzpatrick)
-- [How To Talk To Users | Startup School](https://www.youtube.com/watch?v=z1iF1c8w5Lg)
+- [How To Talk To Users - Startup School](https://www.youtube.com/watch?v=z1iF1c8w5Lg)
 - [Eric Migicovsky - How to Talk to Users](https://www.youtube.com/watch?v=MT4Ig2uqjTc)
 - [How To Build Products Users Love](https://www.youtube.com/watch?v=12D8zEdOPYo)
 - [Fast Path to a Great UX: Increased Exposure Hours](https://www.linkedin.com/pulse/fast-path-great-ux-increased-exposure-hours-jared-spool/)
