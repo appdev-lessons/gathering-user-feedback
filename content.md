@@ -1,4 +1,4 @@
-# User Feedback: Techniques for Effective User Conversations
+# Gathering User Feedback
 
 In this lesson, we'll explore techniques for engaging with users to gather meaningful feedback, ensuring your product meets their needs. The goal is to **make something people actually want**. People *will* lie to you. (They don't want to hurt your feelings) It is your job to make sure you get useful information to make informed product decisions.
 
