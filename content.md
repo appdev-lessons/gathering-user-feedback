@@ -20,13 +20,13 @@ It's important to talk to users, even if their desires might not be immediately 
 
 ## The Importance of User Feedback
 
-Best developers maintain a direct connection to users. A lack of user feedback can signal a problem in the development process. At larger companies, it is common to have many layers in between the user and the developer: customer service, sales, automated support, designers, researchers, etc. Have you ever called tech support and talked to the actual person who makes the product? 
+The best developers maintain a direct connection to users. A lack of user feedback can signal a problem in the development process. At larger companies, it is common to have many layers in between the user and the developer: customer service, sales, automated support, designers, researchers, etc. Have you ever called tech support and talked to the actual person who makes the product? 
 
 There is a direct connection between exposure to users and building better products. Jared Spool talks about this in [Fast Path to a Great UX: Increased Exposure Hours](https://www.linkedin.com/pulse/fast-path-great-ux-increased-exposure-hours-jared-spool/). Each team member has to be exposed directly to the users themselves. Teams that have dedicated user research professionals, who watch the users, then in turn, report the results through documents or videos, don't deliver the same benefits. It's from the direct exposure to the users that we see the improvements in the design.
 
 ## The mistake you will make
 
-> You will make up some idea in your head that you will call your *vision*. And then you will spend a lot of time thinking about your vision in a cafe by yourself and build some elaborate thing without going and talking to users because that’s doing sales, which is as pain and they might say no. You will not ship fast enough because you’re embarrassed to ship something unfinished and you don’t want to face the likely feedback you will get, so you will shrink from contact with your users. When in reality, you’d be better off finding someone with a problem they will pay you to fix and then seeing if you can find more people like that. The best case scenario is that it’s a problem you yourself have.
+> You will make up some idea in your head that you will call your *vision*. And then you will spend a lot of time thinking about your vision in a cafe by yourself and build some elaborate thing without going and talking to users because that’s doing sales, which is a pain and they might say no. You will not ship fast enough because you’re embarrassed to ship something unfinished and you don’t want to face the likely feedback you will get, so you will shrink from contact with your users. When in reality, you’d be better off finding someone with a problem they will pay you to fix and then seeing if you can find more people like that. The best case scenario is that it’s a problem you yourself have.
 > 
 > [Paul Graham](https://x.com/StartupArchive_/status/1779842017818038308)
 
@@ -72,10 +72,10 @@ This is a totally useless conversation. Your friend is trying to be supportive a
 
 
 #### DOs
-- Plan the 3 most important questions you want to investigate. The answers to these questions should terrify you and potentially disprove your idea. Try to form the rest questions around these questions. These questions may be different for each type of person you’re talking to.
+- Plan the 3 most important questions you want to investigate. The answers to these questions should terrify you and potentially disprove your idea. Try to form the rest of your questions around these questions. These questions may be different for each type of person you’re talking to.
 - Start from broad questions and then zoom in until you’ve found a strong signal. Mix generic and specific questions during your conversation. These conversations can be really casual. The interviewee may not even know you are working on a project or that you are "interviewing" them.
 - Ask about lived experience, daily habits and frequent actions instead of abstract ideas and possible solutions.
-- Ask about specific actions in the past, about the positive and negative experience of using similar products. If you consider your idea unique than refer to indirect competitors or the main issues a person witnesses.
+- Ask about specific actions in the past, about the positive and negative experience of using similar products. If you consider your idea unique then refer to indirect competitors or the main issues a person witnesses.
 - Ask your potential user to describe all the steps in detail of using a similar product. Listen and make notes carefully. Don’t miss the emotional questions (like "What did you feel...?").
 - Try to ask for a commitment at the end of your conversation (it can be an intro to the colleagues or boss or a person who might be also interested in; pre-payment; one more meeting and etc.)
 
